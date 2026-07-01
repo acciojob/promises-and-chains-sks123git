@@ -11,7 +11,7 @@
             const ageVal = ageInput.value.trim();
 
             if (name === "" || ageVal === "") {
-                alert("Please enter valid details.");
+                alert("Please enter valid details");
                 return; 
             }
 
