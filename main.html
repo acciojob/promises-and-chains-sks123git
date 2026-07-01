@@ -6,7 +6,48 @@
   </head>
 
   <body>
-    <!-- write the body here -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Eligibility Form</title>
+    <style>
+        /* Simple styling to center and clean up the form layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            gap: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, button {
+            padding: 8px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="votingForm">
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name">
+        </div>
+        
+        <div>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age">
+        </div>
+
+        <button type="submit" id="btn">Submit</button>
+    </form>
 
     <script type="text/javascript" src="./script.js"></script>
   </body>
